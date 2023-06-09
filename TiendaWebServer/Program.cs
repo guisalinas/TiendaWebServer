@@ -1,3 +1,6 @@
+using DataBase;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,14 +10,28 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//DB CONNECTION 
+builder.Services.AddDbContext<TiendaDBContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("TiendaDB_Connection"));
+});
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+using (var scope = app.Services.CreateScope())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    var dataContext = scope.ServiceProvider.GetRequiredService<TiendaDBContext>();
+    dataContext.Database.Migrate();
 }
+
+    // Configure the HTTP request pipeline.
+    if (app.Environment.IsDevelopment())
+    {
+        app.UseSwagger();
+        app.UseSwaggerUI();
+
+
+    }
 
 app.UseHttpsRedirection();
 
