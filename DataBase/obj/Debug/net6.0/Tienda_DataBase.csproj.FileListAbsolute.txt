@@ -1,0 +1,14 @@
+C:\Users\guill\source\repos\TiendaApp\TiendaWebServer\DataBase\obj\Debug\net6.0\Tienda_DataBase.csproj.AssemblyReference.cache
+C:\Users\guill\source\repos\TiendaApp\TiendaWebServer\DataBase\obj\Debug\net6.0\Tienda_DataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guill\source\repos\TiendaApp\TiendaWebServer\DataBase\obj\Debug\net6.0\Tienda_DataBase.AssemblyInfoInputs.cache
+C:\Users\guill\source\repos\TiendaApp\TiendaWebServer\DataBase\obj\Debug\net6.0\Tienda_DataBase.AssemblyInfo.cs
+C:\Users\guill\source\repos\TiendaApp\TiendaWebServer\DataBase\obj\Debug\net6.0\Tienda_DataBase.csproj.CoreCompileInputs.cache
+C:\Users\guill\source\repos\TiendaApp\TiendaWebServer\DataBase\bin\Debug\net6.0\Tienda_DataBase.deps.json
+C:\Users\guill\source\repos\TiendaApp\TiendaWebServer\DataBase\bin\Debug\net6.0\Tienda_DataBase.runtimeconfig.json
+C:\Users\guill\source\repos\TiendaApp\TiendaWebServer\DataBase\bin\Debug\net6.0\Tienda_DataBase.dll
+C:\Users\guill\source\repos\TiendaApp\TiendaWebServer\DataBase\bin\Debug\net6.0\Tienda_DataBase.pdb
+C:\Users\guill\source\repos\TiendaApp\TiendaWebServer\DataBase\obj\Debug\net6.0\Tienda_DataBase.dll
+C:\Users\guill\source\repos\TiendaApp\TiendaWebServer\DataBase\obj\Debug\net6.0\refint\Tienda_DataBase.dll
+C:\Users\guill\source\repos\TiendaApp\TiendaWebServer\DataBase\obj\Debug\net6.0\Tienda_DataBase.pdb
+C:\Users\guill\source\repos\TiendaApp\TiendaWebServer\DataBase\obj\Debug\net6.0\Tienda_DataBase.genruntimeconfig.cache
+C:\Users\guill\source\repos\TiendaApp\TiendaWebServer\DataBase\obj\Debug\net6.0\ref\Tienda_DataBase.dll

@@ -19,7 +19,7 @@ namespace Tienda_DataBase
         public decimal Total { get; set; }
         public int TicketNumber { get; set; }
 
-        public virtual ICollection<SalesDetail> SalesDetails { get; set; }
+        public virtual ICollection<SaleDetail> SalesDetails { get; set; }
 
 
         [ForeignKey("Customer")]

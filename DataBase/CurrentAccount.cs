@@ -20,10 +20,11 @@ namespace Tienda_DataBase
 
         [ForeignKey("Customer")]
         public int CustomerId { get; set; }
+        public Customer Customer { get; set; }
 
         [ForeignKey("Sale")]
         public int? SaleId { get; set; }
-        public Sale sale { get; set; }
+        public Sale Sale { get; set; }
 
 
     }

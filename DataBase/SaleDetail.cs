@@ -11,15 +11,10 @@ namespace Tienda_DataBase
 {
     public class SaleDetail
     {
-        [Key, Column(Order = 0)]
-        [ForeignKey("Sale")]
         public int SaleId { get; set; }
-
-        [Key, Column(Order = 1)]
-        [ForeignKey("Product")]
-        public int ProductId { get; set; }
-
         public Sale Sale { get; set; }
+        
+        public int ProductId { get; set; }
         public Product Product { get; set; }
 
         public int Quantity { get; set; }

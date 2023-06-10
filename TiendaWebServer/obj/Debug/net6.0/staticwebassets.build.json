@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1qj1HBP+BLMgs8lO6lumJF9reNA+o0MHCXJs6mc6VIo=",
+  "Source": "TiendaWebServer",
+  "BasePath": "_content/TiendaWebServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

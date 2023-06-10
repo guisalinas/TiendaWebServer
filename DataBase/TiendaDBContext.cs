@@ -18,5 +18,21 @@ namespace DataBase
         public DbSet<Sale> Sales { get; set; }
         public DbSet<SaleDetail> SalesDetail { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<SaleDetail>()
+                .HasKey(sd => new { sd.SaleId, sd.ProductId });
+
+            modelBuilder.Entity<CustomerAddress>()
+               .HasKey(ca => new { ca.CustomerId, ca.AddressId });
+
+            modelBuilder.Entity<CurrentAccount>()
+                .HasOne(ca => ca.Sale)
+                .WithMany()
+                .HasForeignKey(ca => ca.SaleId)
+                .OnDelete(DeleteBehavior.NoAction);
+        }
+
     }
+
 }
